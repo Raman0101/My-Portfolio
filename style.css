@@ -111,6 +111,8 @@ header{
 
 .dropdown-menu.open{
     height: 220px;
+    position: fixed;
+    margin-top: 40px;
 }
 
 .dropdown-menu li{
