@@ -196,7 +196,7 @@ header{
 .btn-box{
     display: flex;
     height: 2rem;
-    width: 8rem;
+    width: 10rem;
     background-color: #124E66;
     justify-content: center;
     align-items: center;
@@ -284,7 +284,7 @@ header{
 
     .btn-box{
         height: 1.5rem;
-        width: 7rem;
+        width: 8rem;
     }
 
     .btn-box h4{
@@ -363,7 +363,9 @@ header{
 
 .about li{
     animation: slideTop 1s ease forwards;
-    margin-left: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
     line-height: 1.5;
     font-family: "Playfair Display", serif;
 }
@@ -389,6 +391,7 @@ header{
         padding-left: 5px;
         padding-right: 10px;
         margin-left: 10px;
+        margin-right: 20px;
         font-size: 13px;
         font-weight: 300;
         text-align: justify;
