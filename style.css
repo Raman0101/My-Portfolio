@@ -239,6 +239,18 @@ header{
 
     /* Responsiveness- Top & Button */
 
+@media(max-width:1275px){
+        .pfp{
+            height: 400px;
+        }
+        .disc{
+            width: 200px;
+            height: 150px;
+            position: relative;
+            top: 60px;
+        }
+}
+
 @media(max-width:900px){
     .pfp{
         height: 300px;
@@ -251,7 +263,7 @@ header{
     }
 }
 
-@media(max-width:450px){
+@media(max-width:560px){
     .pfp{
         height: 140px;
         margin-left: 0px;
@@ -297,6 +309,13 @@ header{
     .btn-box img{
         height: 1.2em;
         background-color: transparent;
+    }
+}
+
+@media(max-width:425px){
+    .pfp{
+        height: 150px;
+        margin-left: 10px;
     }
 }
 
