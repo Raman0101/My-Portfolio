@@ -180,21 +180,23 @@
 
 
 
-                <!-- nav script -->
+                <!-- JavaScript -->
+<script>
+document.querySelector('.toggle').addEventListener('click', function() {
+    document.querySelector('.dropdown-menu').classList.toggle('open');
+    const icon = this.querySelector('i');
+    icon.classList.toggle('fa-bars');
+    icon.classList.toggle('fa-times');
+});
 
-   <script>
-        const toggleBtn = document.querySelector('.toggle');
-        const toggleBtnicon = document.querySelector('.toggle i');
-        const dropDownMenu = document.querySelector('.dropdown-menu');
-    
-        toggleBtn.onclick = function() {
-        dropDownMenu.classList.toggle('open');
-        const isOpen = dropDownMenu.classList.contains('open');
-    
-        toggleBtnicon.className = isOpen
-            ? 'fa-solid fa-xmark'
-            : 'fa-solid fa-bars';
-};
+document.querySelectorAll('.dropdown-menu li a').forEach(function(link) {
+    link.addEventListener('click', function() {
+        document.querySelector('.dropdown-menu').classList.remove('open');
+        const icon = document.querySelector('.toggle i');
+        icon.classList.add('fa-bars');
+        icon.classList.remove('fa-times');
+    });
+});
 </script>
 </body>
 </html>
