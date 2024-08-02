@@ -193,7 +193,7 @@ header{
 
     /* button */
 
-.btn-box{
+/* .btn-box{
     display: flex;
     height: 2rem;
     width: 10rem;
@@ -234,7 +234,61 @@ header{
     background-color: transparent;
     box-shadow: 0px 0px 0px transparent;
     
+} */
+
+        /* resume */
+
+.resume-box{
+    display: flex;
+    height: 1.6rem;
+    width: 9rem;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    border: 2px solid black;
+    animation: slideTop 1s ease forwards;
 }
+
+.resume{
+    text-decoration: none;
+}
+
+.resume-box h4{
+    background-color: transparent;
+    font-weight: 0.5em;
+    font-family: "Playfair Display", serif;
+    padding-left: 3px;
+    letter-spacing: 0.2rem;
+    color:black;
+    
+}
+
+.resume-box img{
+    height: 1.5em;
+    background-color: transparent;
+    margin-left: 5px;
+}
+
+.resume-box:hover{
+    border: 2px solid white;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.resume-box:active{
+    background-color: transparent;
+    box-shadow: 0px 0px 0px transparent;
+
+    h4{
+        color: white;
+    }
+    img{
+        background-color: white;
+        border-radius: 50%;
+    }
+}
+
 
 
     /* Responsiveness- Top & Button */
@@ -294,7 +348,7 @@ header{
         text-align: center;
     }
 
-    .btn-box{
+/*     .btn-box{
         height: 1.5rem;
         width: 8rem;
     }
@@ -307,6 +361,24 @@ header{
     }
 
     .btn-box img{
+        height: 1.2em;
+        background-color: transparent;
+    } */
+
+    .resume-box{
+        height: 1.5rem;
+        width: 8rem;
+        margin-left: 16px;
+    }
+
+    .resume-box h4{
+        background-color: transparent;
+        font-size: 14px;
+        font-weight: 400 ;
+        letter-spacing: 0.2rem;
+    }
+
+    .resume-box img{
         height: 1.2em;
         background-color: transparent;
     }
@@ -343,6 +415,9 @@ header{
     .disc p {
         font-size: 12px;
         padding-left: 0px;
+    }
+    .resume-box{
+        margin-left: 0px;
     }
 }
 
