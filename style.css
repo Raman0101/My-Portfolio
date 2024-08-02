@@ -191,7 +191,7 @@ header{
     font-family: "Caveat", cursive;
 }
 .disc p{
-    animation: slideName 1s ease forwards;
+/*     animation: slideName 1s ease forwards; */
 }
 
 
@@ -488,6 +488,9 @@ header{
         margin-top: 30px;
     }
     .about li{
+        padding-right: 10px;
+        margin-left: 5px;
+        margin-right: 20px;
         font-size: 14px;
         font-weight: 300;
         text-align: justify;
@@ -516,14 +519,14 @@ header{
 
 td{
     padding: 25px;
-    animation: slideLeft 1s ease forwards;
+/*     animation: slideLeft 1s ease forwards; */
 }
 td a{
     text-decoration: none;
 }
 th{
     padding: 5px;
-    animation: slideLeft 1s ease forwards;
+/*     animation: slideLeft 1s ease forwards; */
 }
 .table{
     margin-left: auto;
@@ -573,7 +576,7 @@ th{
     border-radius: 50% 20% / 10% 40%;
     transition: 0.3s;
     box-shadow: 0 2px 2px white;
-    animation: slideLeft 1s ease forwards;
+/*     animation: slideLeft 1s ease forwards; */
 }
 
 .Skills{
