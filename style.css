@@ -400,8 +400,22 @@ header{
     }
     .about li{
         margin-left: 1em;
+        font-size: 15px;
     }
 }
+
+@media(max-width:700px){
+    .about{
+        margin-top: 30px;
+    }
+    .about li{
+        font-size: 14px;
+        font-weight: 300;
+        text-align: justify;
+        word-spacing: 0.1rem;
+    }
+}
+
 @media(max-width:450px){
     .about{
         margin-top: 30px;
