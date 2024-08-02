@@ -191,7 +191,7 @@ header{
     font-family: "Caveat", cursive;
 }
 .disc p{
-/*     animation: slideName 1s ease forwards; */
+animation: slideRight 1s ease forwards;
 }
 
 
@@ -519,14 +519,14 @@ header{
 
 td{
     padding: 25px;
-/*     animation: slideLeft 1s ease forwards; */
+    animation: slideTop 1s ease forwards;
 }
 td a{
     text-decoration: none;
 }
 th{
     padding: 5px;
-/*     animation: slideLeft 1s ease forwards; */
+    animation: slideTop 1s ease forwards;
 }
 .table{
     margin-left: auto;
@@ -576,7 +576,7 @@ th{
     border-radius: 50% 20% / 10% 40%;
     transition: 0.3s;
     box-shadow: 0 2px 2px white;
-/*     animation: slideLeft 1s ease forwards; */
+    animation: slideTop 1s ease forwards;
 }
 
 .Skills{
@@ -664,11 +664,13 @@ th{
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: slideTop 1s ease forwards;
 }
 
 .link{
     text-decoration: none;
     font-size: 1.2rem;
+    animation: slideTop 1s ease forwards;
    
 }
 
@@ -709,7 +711,7 @@ th{
 
 @keyframes slideLeft {
     0% {
-        transform: translateX(100px);
+        transform: translateX(60px);
         opacity: 0;
     }
 
@@ -747,4 +749,15 @@ th{
         opacity: 1;
     }
 }
+@keyframes slideRight {
+    0% {
+        transform: translateX(-30px);
+        opacity: 0;
 
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
