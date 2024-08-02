@@ -141,6 +141,10 @@ header{
 
 @media(max-width: 576px)
 {
+    .navbar{
+        width: 100%;
+        margin: 0;
+    }
     .dropdown-menu{
         left: 2rem;
         width: unset;
