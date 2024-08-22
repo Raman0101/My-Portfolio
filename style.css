@@ -23,13 +23,13 @@ html{
     background-color: transparent;
 }
 
-.Portfolio{
+/* .Portfolio{
     background-color: transparent;
     font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 0.1rem;
     font-family: "Playfair Display", serif;
-}
+} */
 
 .links{
     background-color: transparent;
@@ -80,6 +80,7 @@ header{
 .navbar .links{
     display: flex;
     gap: 2rem;
+    margin-left: 50%;
 }
 
 .navbar .toggle{
